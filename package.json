@@ -1,0 +1,17 @@
+{
+  "name": "vuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "now-dev": "vuepress dev docs --port=$PORT",
+    "now-build": "npm run build && mv docs/.vuepress/dist dist"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
