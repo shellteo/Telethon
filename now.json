@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "vuepress",
+    "name": "telethon",
     "builds": [
         { "src": "package.json", "use": "@now/static-build" }
     ]
